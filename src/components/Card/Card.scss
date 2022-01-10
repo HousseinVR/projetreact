@@ -1,0 +1,23 @@
+.gros{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    .g-card-container{
+        width: 80%;
+        .g-card{ 
+            position: relative;
+            text-align: center;
+            align-items: center;
+            img{
+                width: 60%;
+            }
+            .bloc-button{
+                position: absolute;
+                top: 85%;
+                left: 50%;
+                transform: translate(-50%, -50%)
+            }
+        }
+    }
+}
